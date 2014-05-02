@@ -248,5 +248,23 @@
 			<georss:point>49.63510652031311 5.9702379232569065</georss:point>
 			<img></img>
 		</item>
+		<item>
+			<title>Entering Luxembourg</title>
+			<description>Entering Luxembourg!</description>
+			<link></link>
+			<pubDate>Mon, 14 Apr 14 10:53:11 +0000</pubDate>
+			<guid isPermaLink="false"></guid>
+			<georss:point>49.63898 5.87127</georss:point>
+			<img>img/DSC_0155.JPG</img>
+		</item>
+		<item>
+			<title>Departure</title>
+			<description>Time to go!</description>
+			<link></link>
+			<pubDate>Mon, 14 Apr 14 09:00:11 +0000</pubDate>
+			<guid isPermaLink="false"></guid>
+			<georss:point>50.947958 4.316221</georss:point>
+			<img>img/DSC_0150.JPG</img>
+		</item>
 	</channel>
 </rss>  
