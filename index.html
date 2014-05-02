@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<title>Roadtrip 2014</title>
+<link rel='stylesheet' href='style.css' />
+<script type="text/javascript"
+    src="http://maps.googleapis.com/maps/api/js?sensor=false">
+</script>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="jquery.xml2json.js"></script>
+<script src="moment.min.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-50502315-1', 'shadowmedia.be');
+  ga('send', 'pageview');
+
+</script>
+<script type="text/javascript">
+	function initialize(){
+		$.ajax(
+			{
+				url: "checkins.xml"
+				, dataType: "xml"
+				, success: function(xml){
+					checkins = $.xml2json(xml);
+					console.dir(checkins);
+					
+					var myOptions = {
+						zoom: 6,
+						center: new google.maps.LatLng(47.070122, 6.852036),
+						mapTypeId: google.maps.MapTypeId.ROADMAP
+					};
+					var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+
+					var steven_avatar = {url: "http://labs.shadowmedia.be/roadtrip14/steven.png",
+							size: new google.maps.Size(32, 32),
+							origin: new google.maps.Point(0, 0),
+							anchor: new google.maps.Point(16, 32)
+							};
+
+					$.each(checkins.channel.item, function(key, value){
+						console.dir(value);
+						var content = "<div><a href='" + value.link + "' target='_blank'>" + moment(value.pubDate).fromNow() + "</a> " + value.description + "</div>";
+						if(value.img !== undefined && value.img != ""){
+							content = "<div><a href='" + value.link + "' target='_blank'>" + moment(value.pubDate).fromNow() + "</a> " + value.description + "<br/><center><img src='" + value.img + "' width='300px' height='300px'/></center></div>";
+						}
+
+						var infowindow = new google.maps.InfoWindow({
+												content: content
+											});
+						//$("#visitedplaces").prepend("<li>" + moment(value.pubDate).fromNow() + " " + value.description + "</li>");
+						var coords = value.point.split(" ");
+						var shape = {
+										coord: [1, 1, 1, 32, 32, 32, 32 , 1],
+										type: 'poly'
+									};
+						var marker = new google.maps.Marker({
+							position: new google.maps.LatLng(coords[0], coords[1])
+							, map: map
+							, icon: steven_avatar
+							, shape: shape
+							, title: value.description
+						});
+
+						google.maps.event.addListener(marker, 'click', function() {
+							infowindow.open(map,marker);
+						});
+					});
+
+					
+				}, error: function(jqXHR, textStatus, errorThrown){alert(textStatus + ": Something went wrong: " + errorThrown);}
+			});
+	}
+</script>
+</head>
+<body onload="initialize()">
+	<div id="map_canvas" style="width: 100%; height: 100%; position: absolute; top: 0px; left: 0px;">
+	</div>
+</body>
+</html>
