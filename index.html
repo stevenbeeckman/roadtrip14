@@ -27,7 +27,7 @@
 				, dataType: "xml"
 				, success: function(xml){
 					checkins = $.xml2json(xml);
-					console.dir(checkins);
+					//console.dir(checkins);
 					
 					var myOptions = {
 						zoom: 6,
@@ -48,23 +48,26 @@
 									};
 
 					$.each(checkins.channel.item, function(key, value){
-						console.dir(value);
-						var content = "<div>" + moment(value.pubDate).fromNow() + " " + value.description + "</div>";
+						var content = "<div><h3>" + value.title + "</h3><p><i>" + moment(value.pubDate).format('MMMM Do YYYY, HH:mm') + "<br/>" + moment(value.pubDate).fromNow() + "</i></p><p>" + value.description + "</p></div>";
 						var avatar;
 						var shape;
 						if(value.img !== undefined && value.img != ""){
-							content = "<div>" + moment(value.pubDate).fromNow() + " " + value.description + "<br/><center><img src='" + value.img + "' width='300px' height='300px'/></center></div>";
+							content = "<div><h3>" + value.title + "</h3><p><i>" + moment(value.pubDate).format('MMMM Do YYYY, HH:mm') + "<br/>" + moment(value.pubDate).fromNow() + "</i></p><p>" + value.description + "</p><center><img src='" + value.img + "' width='300px' height='300px'/></center></div>";
 							avatar = {
 									url: value.img,
-									size: new google.maps.Size(64, 64),
-									origin: new google.maps.Point(140, 140),
-									anchor: new google.maps.Point(32, 72)
+									size: new google.maps.Size(32, 32),
+									origin: new google.maps.Point(0, 0),
+									anchor: new google.maps.Point(16, 32)
 								};
 							shape = {
-										coord: [1, 1, 1, 64, 64, 64, 64 , 1],
+										coord: [1, 1, 1, 32, 32, 32, 32 , 1],
 										type: 'poly'
 									};
 
+						}else if(value.youtube !== undefined && value.youtube != ""){
+							content = "<div><h3>" + value.title + "</h3><p><i>" + moment(value.pubDate).format('MMMM Do YYYY, HH:mm') + "<br/>" + moment(value.pubDate).fromNow() + "</i></p><p>" + value.description + "</p><p><iframe width='560' height='315' src='" + value.youtube + "' frameborder='0' allowfullscreen></iframe></p></div>";
+							avatar = steven_avatar;
+							shape = steven_shape;
 						}else{
 							avatar = steven_avatar;
 							shape = steven_shape;

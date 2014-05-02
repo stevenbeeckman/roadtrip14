@@ -183,67 +183,220 @@
 			<pubDate>Mon, 14 Apr 14 22:11:31 +0000</pubDate>
 			<guid isPermaLink="false">534c5d13498ec64f92b9233c</guid>
 			<georss:point>45.76091594999461 4.835892502782748</georss:point>
-			<img></img>
+			<img>img/DSC_0190.JPG</img>
 		</item>
 		<item>
-			<title>Café 203</title>
-			<description>@ Café 203 - Grand mojito!</description>
+			<title>Lyon by night</title>
+			<description>Looking at Hotel Carlton from Place de la République just before midnight. The sky was very clear, with the moon and some stars clearly visible.</description>
+			<link>https://foursquare.com/user/1058998/checkin/534c5d13498ec64f92b9233c</link>
+			<pubDate>Mon, 14 Apr 14 21:25:31 +0000</pubDate>
+			<guid isPermaLink="false">534c5d13498ec64f92b9233c</guid>
+			<georss:point>45.761000 4.835803</georss:point>
+			<img>img/DSC_0189.JPG</img>
+		</item>
+		<item>
+			<title>Un Grand Mojito</title>
+			<description>€ 11.20 for un grand mojito (0.5L) at Café 203!</description>
+			<expenses>
+				<expense>
+					<amount>11.20</amount>
+					<currency>EUR</currency>
+					<description>Food &amp; drinks</description>
+				</expense>
+			</expenses>
 			<link>https://foursquare.com/user/1058998/checkin/534c4439498e39300b7be4ae</link>
 			<pubDate>Mon, 14 Apr 14 20:25:29 +0000</pubDate>
 			<guid isPermaLink="false">534c4439498e39300b7be4ae</guid>
 			<georss:point>45.766856473602694 4.836814301689024</georss:point>
-			<img>https://irs0.4sqi.net/img/general/680x680/1058998_lRGT9Yd_jW7is_5_sEDYOxy_Zd51i--Va_h9Zp-4c8g.jpg</img>
+			<img>img/DSC_0182.JPG</img>
 		</item>
 		<item>
-			<title>Big Fernand</title>
-			<description>@ Big Fernand - Curieus!</description>
+			<title>Wandering around town</title>
+			<description>At the northern end of Rue de la République there is this beautiful building, the Opéra de Lyon.</description>
+			<link></link>
+			<pubDate>Mon, 14 Apr 14 20:13:54 +0000</pubDate>
+			<guid isPermaLink="false"></guid>
+			<georss:point>45.767739 4.835978</georss:point>
+			<img>img/DSC_0178.JPG</img>
+		</item>
+		<item>
+			<title>Hamburgers in Lyon?</title>
+			<description>Foursquare tipped me a hamburger restaurant called &lt;a href="http://www.bigfernand.com/" target="_blank"&gt;Big Fernand&lt;/a&gt;. I had the Bartholomé menu with a blone Ch'ti beer and a cheesecake for € 18.</description>
+			<expenses>
+				<expense>
+					<amount>18.00</amount>
+					<currency>EUR</currency>
+					<description>Food &amp; drinks</description>
+				</expense>
+			</expenses>
 			<link>https://foursquare.com/user/1058998/checkin/534c3962498ee8514e9d9006</link>
 			<pubDate>Mon, 14 Apr 14 19:39:14 +0000</pubDate>
 			<guid isPermaLink="false">534c3962498ee8514e9d9006</guid>
 			<georss:point>45.76222569465604 4.836292332167558</georss:point>
-			<img>https://irs3.4sqi.net/img/general/680x680/1058998_xVOh-ElSHt8GHlFRpqdqR6h9oRgBY8hrGe1_PhxgcSs.jpg</img>
+			<img>img/DSC_0172.JPG</img>
 		</item>
 		<item>
-			<title>Hotel Carlton Lyon - MGallery Collection</title>
-			<description>@ Hotel Carlton Lyon - MGallery Collection</description>
+			<title>Scoring points at the Carlton</title>
+			<description>Because I had to score some Accor Club loyalty points I stayed at the Carlton in Lyon. Half price is half price, right?</description>
 			<link>https://foursquare.com/user/1058998/checkin/534c1626498e39300b739416</link>
 			<pubDate>Mon, 14 Apr 14 17:08:54 +0000</pubDate>
 			<guid isPermaLink="false">534c1626498e39300b739416</guid>
 			<georss:point>45.76053606423284 4.836100617580979</georss:point>
+			<img>img/DSC_0166.JPG</img>
+		</item>
+		<item>
+			<title>Parked beneath Place de la République</title>
+			<description>Finally made it to Lyon!</description>
+			<link>https://foursquare.com/user/1058998/checkin/534c15f7498e883b453b97d2</link>
+			<pubDate>Mon, 14 Apr 14 17:01:07 +0000</pubDate>
+			<guid isPermaLink="false">534c15f7498e883b453b97d2</guid>
+			<georss:point>45.76034793625774 4.835723016199256</georss:point>
+			<img>img/DSC_0168.JPG</img>
+		</item>
+		<item>
+			<title>Lion in Lyon!</title>
+			<description>There's a lion above the entry of the tunnel!</description>
+			<link></link>
+			<pubDate>Mon, 14 Apr 14 16:51:11 +0000</pubDate>
+			<guid isPermaLink="false"></guid>
+			<georss:point>45.76417 4.80165</georss:point>
+			<img>img/tunnel_de_fourviere_lyon.jpg</img>
+		</item>
+		<item>
+			<title>Traffic jam!</title>
+			<description></description>
+			<link></link>
+			<pubDate>Mon, 14 Apr 14 16:29:11 +0000</pubDate>
+			<guid isPermaLink="false"></guid>
+			<georss:point>45.79195 4.7821</georss:point>
 			<img></img>
 		</item>
 		<item>
-			<title>Place de la République</title>
-			<description>@ Place de la République</description>
-			<link>https://foursquare.com/user/1058998/checkin/534c15f7498e883b453b97d2</link>
-			<pubDate>Mon, 14 Apr 14 17:08:07 +0000</pubDate>
-			<guid isPermaLink="false">534c15f7498e883b453b97d2</guid>
-			<georss:point>45.76034793625774 4.835723016199256</georss:point>
+			<title>Time to pay!</title>
+			<description>Péage: €30.10</description>
+			<expenses>
+				<expense>
+					<amount>30.10</amount>
+					<currency>EUR</currency>
+					<description>Péage</description>
+				</expense>
+			</expenses>
+			<link></link>
+			<pubDate>Mon, 14 Apr 14 16:18:11 +0000</pubDate>
+			<guid isPermaLink="false"></guid>
+			<georss:point>45.97320 4.73210</georss:point>
+			<img></img>
+		</item>
+		<item>
+			<title>Smokin' Grampa in a Mercedes</title>
+			<description>So this grampa type in a Mercedes S350 just drove by while he seemed to be smoking from a waterpipe.</description>
+			<link></link>
+			<pubDate>Mon, 14 Apr 14 16:08:11 +0000</pubDate>
+			<guid isPermaLink="false"></guid>
+			<georss:point>46.0929 4.7450</georss:point>
+			<img></img>
+		</item>
+		<item>
+			<title>Departing again</title>
+			<description>Didn't buy anything, one hour to go!</description>
+			<link></link>
+			<pubDate>Mon, 14 Apr 14 15:51:11 +0000</pubDate>
+			<guid isPermaLink="false"></guid>
+			<georss:point>46.41882 4.86372</georss:point>
 			<img></img>
 		</item>
 		<item>
 			<title>Aire de Mâcon-la-Salle</title>
-			<description>@ Aire de Mâcon-la-Salle - Presque là!</description>
+			<description>It's about 24°C, pretty hot actually!</description>
 			<link>https://foursquare.com/user/1058998/checkin/534c0334498e6edb4e2db1a8</link>
-			<pubDate>Mon, 14 Apr 14 15:48:04 +0000</pubDate>
+			<pubDate>Mon, 14 Apr 14 15:31:04 +0000</pubDate>
 			<guid isPermaLink="false">534c0334498e6edb4e2db1a8</guid>
 			<georss:point>46.42044301208062 4.8645216743200645</georss:point>
+			<img></img>
+		</item>
+		<item>
+			<title>Rock Your Body</title>
+			<description>Just passed Dijon-Sud, already on the road for more than 5 hours. Justin's playing in the car.</description>
+			<youtube>//www.youtube.com/embed/TSVHoHyErBQ</youtube>
+			<link></link>
+			<pubDate>Mon, 14 Apr 14 14:37:11 +0000</pubDate>
+			<guid isPermaLink="false"></guid>
+			<georss:point>47.26382 5.1271</georss:point>
+			<img></img>
+		</item>
+		<item>
+			<title>Driving by Aire de Langres</title>
+			<description></description>
+			<link></link>
+			<pubDate>Mon, 14 Apr 14 14:07:11 +0000</pubDate>
+			<guid isPermaLink="false"></guid>
+			<georss:point>47.81856 5.22421</georss:point>
+			<img></img>
+		</item>
+		<item>
+			<title>Departing again</title>
+			<description>Bought 2 pommes and 1 Coca Cola Cherry for €4.60.</description>
+			<expenses>
+				<expense>
+					<amount>4.60</amount>
+					<currency>EUR</currency>
+					<description>Food &amp; drinks</description>
+				</expense>
+			</expenses>
+			<link></link>
+			<pubDate>Mon, 14 Apr 14 13:30:11 +0000</pubDate>
+			<guid isPermaLink="false"></guid>
+			<georss:point>48.26782 5.86077</georss:point>
 			<img></img>
 		</item>
 		<item>
 			<title>Aire de Lorraine Sandaucourt</title>
 			<description>@ Aire de Lorraine Sandaucourt - Nieuwe vrienden maken in Frankrijk: check!</description>
 			<link>https://foursquare.com/user/1058998/checkin/534be0c9498e7de69302121b</link>
-			<pubDate>Mon, 14 Apr 14 13:21:13 +0000</pubDate>
+			<pubDate>Mon, 14 Apr 14 13:08:13 +0000</pubDate>
 			<guid isPermaLink="false">534be0c9498e7de69302121b</guid>
 			<georss:point>48.26872671357068 5.859805966371342</georss:point>
-			<img>https://irs1.4sqi.net/img/general/680x680/1058998_9MPGBFF8le3qTxvKVBq17ORl5C-qpWC3-CR1uet4BSg.jpg</img>
+			<img>img/DSC_0163.JPG</img>
 		</item>
 		<item>
-			<title>Aire De Capellen</title>
-			<description>@ Aire De Capellen</description>
+			<title>Péage</title>
+			<description>375 km to Lyon</description>
+			<link></link>
+			<pubDate>Mon, 14 Apr 14 12:46:11 +0000</pubDate>
+			<guid isPermaLink="false"></guid>
+			<georss:point>48.62974 5.88333</georss:point>
+			<img></img>
+		</item>
+		<item>
+			<title>Passing by the Aire de Porte de France</title>
+			<description></description>
+			<link></link>
+			<pubDate>Mon, 14 Apr 14 11:38:11 +0000</pubDate>
+			<guid isPermaLink="false"></guid>
+			<georss:point>49.40585 6.11190</georss:point>
+			<img></img>
+		</item>
+		<item>
+			<title>On the road again</title>
+			<description></description>
+			<link></link>
+			<pubDate>Mon, 14 Apr 14 11:20:11 +0000</pubDate>
+			<guid isPermaLink="false"></guid>
+			<georss:point>49.635013 5.971179</georss:point>
+			<img>img/DSC_0161.JPG</img>
+		</item>
+		<item>
+			<title>Pitstop @ Aire De Capellen</title>
+			<description>Bought candy and drinks for €11.30.</description>
+			<expenses>
+				<expense>
+					<amount>11.30</amount>
+					<currency>EUR</currency>
+					<description>Food &amp; drinks</description>
+				</expense>
+			</expenses>
 			<link>https://foursquare.com/user/1058998/checkin/534bbff7498e39300b64ad41</link>
-			<pubDate>Mon, 14 Apr 14 11:01:11 +0000</pubDate>
+			<pubDate>Mon, 14 Apr 14 10:56:11 +0000</pubDate>
 			<guid isPermaLink="false">534bbff7498e39300b64ad41</guid>
 			<georss:point>49.63510652031311 5.9702379232569065</georss:point>
 			<img></img>
@@ -259,7 +412,7 @@
 		</item>
 		<item>
 			<title>Departure</title>
-			<description>Time to go!</description>
+			<description>Just filled my car with 35.34 liters of gasoil. Let's go!</description>
 			<link></link>
 			<pubDate>Mon, 14 Apr 14 09:00:11 +0000</pubDate>
 			<guid isPermaLink="false"></guid>
